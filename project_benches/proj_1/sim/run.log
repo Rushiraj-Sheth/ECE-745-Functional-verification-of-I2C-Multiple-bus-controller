@@ -1,0 +1,406 @@
+# VISUALIZERROOT = '/mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/VisualizerRls'
+# USER = 'rsheth'
+# Siemens software version 2025.1_1 (Build on Feb 13 2025)
+# Unpublished work. Copyright 2025 Siemens
+
+# vsim -64 -onfinish stop -classdebug -uvmcontrol=all -msgmode both -permit_unmatched_virtual_intf -sv_seed 123456 -msglimit error -msglimitcount 20 -qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc -lib qrun.out/work -visualizer=design.bin -do {set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do} -statslog qrun.out/stats_log qrun_opt -appendlog -l run.log
+# vsim -64 -onfinish stop -classdebug -uvmcontrol=all -msgmode both -permit_unmatched_virtual_intf -sv_seed 123456 -msglimit error -msglimitcount 20 -qwavedb=+livesim+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc -lib qrun.out/work -visualizer=design.bin -statslog qrun.out/stats_log qrun_opt -appendlog 
+# Start time: 18:22:08 on Mar 28,2025
+# Loading Siemens Visualizer shared object '/mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/bin/../linux_x86_64/VisualizerRls/bin/libqvisualizer.so'
+
+# Initiating qwavedb class logging
+
+
+# Done initiating qwavedb class logging
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+
+# 18:22:12: Loading design data...
+# 18:22:12: Loaded  design units
+# 18:22:12: Loaded  design hierarchy
+# Warning: The wave file cannot be loaded because either the simulation has not yet logged any data, or qwavedb logging has not been enabled.
+# set IterationLimit 140000
+# 140000
+# set NoQuitOnFinish 1
+# 1
+# coverage attribute -name TESTNAME -value test_top
+
+# coverage save -onexit test_top.ucdb
+
+# do wave.do
+# 18:22:17: Loading waveform header...
+# 18:22:17: Loaded  waveform header
+# Static tasks and functions will be logged.
+# 	Arrays of 1 unpacked dimension inside classes will be logged if they have 1024 or fewer elements
+# qwavedb_dumpvars: Initiating qwavedb class logging
+# 
+# 	Loading class filter file '/mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/bin/../linux_x86_64/VisualizerRls/bin/../config/uvmclassfilter.txt'
+# 
+# qwavedb_dumpvars: Done initiating qwavedb class logging
+# 	Arrays of 1 unpacked dimension will be logged if they have 1024 or fewer elements
+# qwavedb_dumpvars: Initiating qwavedb waveform capturing
+# 
+# Info: Enabling parallel (multi-threaded) wave dumping.
+# 
+# qwavedb_dumpvars: Done initiating qwavedb waveform capturing
+# 
+
+# Starting to log objects in ".top.i2c_bus"
+# Logged 13 objects
+# ** Note: (vsim-4905) QWAVEDB:  logging of additional nested aggregates (UPA of UPS of UPA) is enabled.
+# Flushing waveform data
+run -all
+############################# TEST 3 ################################
+# 
+# Alternate READ and WRITES | Write data: 64 to 127 | read data:63 to 0
+# 
+#####################################################################
+# 
+# WB write address transferred: 00000000 | Decimal val:0 
+# 
+# WB write data:c0, Decimal:192 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000001 | Decimal val:1 
+# 
+# WB write data:00, Decimal:  0 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:06, Decimal:  6 
+# 
+# 
+# 
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000110 | time: 43000 
+# 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:86, Decimal val:134 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:04, Decimal:  4 
+# 
+# 
+# 
+# 
+# ------------------- start condition received by I2C -----------------------
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000100 | time: 1003000 
+# 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:84, Decimal val:132 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000001 | Decimal val:1 
+# 
+# WB write data:44, Decimal: 68 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:01, Decimal:  1 
+# 
+# 
+# 
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000001 | time: 19063000 
+# 
+# 
+# --------- I2C_BUS WRITE TRANSFER: ----------
+# 
+# I2C address transferred: 0x22 | Decimal val:  34
+# 
+# I2C RW bit: 00 
+# 
+# I2C write data tranferred (Decimal val of data): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:81, Decimal val:129 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000001 | Decimal val:1 
+# 
+# WB write data:40, Decimal: 64 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:01, Decimal:  1 
+# 
+# 
+# 
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000001 | time: 37123000 
+# 
+# 
+# --------- I2C_BUS WRITE TRANSFER: ----------
+# 
+# I2C address transferred: 0x22 | Decimal val:  34
+# 
+# I2C RW bit: 00 
+# 
+# I2C write data tranferred (Decimal val of data): 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:81, Decimal val:129 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:05, Decimal:  5 
+# 
+# 
+# 
+# 
+# ------------------- stop condition received by I2C: Write op -----------------------
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000101 | time: 38823000 
+# 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:85, Decimal val:133 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000000 | Decimal val:0 
+# 
+# WB write data:c0, Decimal:192 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000001 | Decimal val:1 
+# 
+# WB write data:00, Decimal:  0 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:06, Decimal:  6 
+# 
+# 
+# 
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000110 | time: 38855000 
+# 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:86, Decimal val:134 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:04, Decimal:  4 
+# 
+# 
+# 
+# 
+# ------------------- start condition received by I2C -----------------------
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000100 | time: 40741000 
+# 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:84, Decimal val:132 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000001 | Decimal val:1 
+# 
+# WB write data:45, Decimal: 69 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:01, Decimal:  1 
+# 
+# 
+# 
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000001 | time: 58801000 
+# 
+# 
+# ------- I2C_BUS READ TRANSFER: ------------ 
+# 
+# I2C address transferred: 0x22 | Decimal val:  34
+# 
+# I2C RW bit: 01 
+# 
+# I2C read data tranferred (Decimal val of data): 0 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:81, Decimal val:129 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:03, Decimal:  3 
+# 
+# 
+# 
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000011 | time: 76853000 
+# 
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:83, Decimal val:131 
+# 
+# 
+# 
+# 
+# ------- I2C_BUS READ TRANSFER: ------------ 
+# 
+# I2C address transferred: 0x22 | Decimal val:  34
+# 
+# I2C RW bit: 01 
+# 
+# I2C read data tranferred (Decimal val of data): 63 
+# 
+# WB read address transferred: 00000001 | Decimal val:1
+# 
+# WB read data:3f, Decimal val: 63 
+# 
+# 
+# 
+# 
+# WB write address transferred: 00000010 | Decimal val:2 
+# 
+# WB write data:05, Decimal:  5 
+# 
+# 
+# 
+# 
+# ------------------- stop condition received by I2C: Read op -----------------------
+# 
+# Wishbone DON bit/irq status
+# 
+# command is done. CMDR val: 10000101 | time: 78559000 
+# 
+# 
+# ------------------- stop condition received by I2C: Read op -----------------------
+# 
+######################### TEST 3 FINISH #############################
+# 
+# Alternate READ and WRITES | Write data: 64 to 127 | read data:63 to 0
+# 
+#####################################################################
+# 
+# WB read address transferred: 00000010 | Decimal val:2
+# 
+# WB read data:85, Decimal val:133 
+# 
+# 
+# 
+# 
+# ** Note: $finish    : ../testbench/top.sv(210)
+#    Time: 795590 ns  Iteration: 0  Instance: .top
+# Stopped at ../testbench/top.sv line 210
+# Break in Module top at ../testbench/top.sv line 210
+# Window layout 'Default' saved in file: /mnt/ncsudrive/r/rsheth/.visualizer/layout.xml
+# Saving coverage database on exit...
+# Disable bg thread...
+# qwavedb_dumpvars : Simulation ending at [0 79559000] 0
+# ========= Visualizer Dump Summary report =========
+# 	 #Design Ids       = 153
+# 	 #Assertion Ids    = 3
+# 	 #Message Ids      = 6
+# 	 #Total Ids        = 181
+# 	 #Swaps            = 9
+# 	  Id Memory        = 18.82 KB
+# 	  Swap Memory      = 100.00 MB
+# ========= End of Visualizer Dump Summary report =========
+# End time: 18:37:27 on Mar 28,2025, Elapsed time: 0:15:19
+# Errors: 0, Warnings: 0
+# Start  : Fri 28 Mar 2025 06:21:50 PM EDT
+# End    : Fri 28 Mar 2025 06:37:27 PM EDT
+# VMSize : 7076448 kB
+# VMPeak : 7227028 kB
+# MaxRSS : 275344 kB
+End time: 18:37:29 on Mar 28,2025, Elapsed time: 0:15:59
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   0, Warnings:   0
+    vcom: Errors:   0, Warnings:   0
+    vopt: Errors:   0, Warnings:   2
+    vsim: Errors:   0, Warnings:   0
+  Totals: Errors:   0, Warnings:   2

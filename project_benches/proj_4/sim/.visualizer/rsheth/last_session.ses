@@ -1,0 +1,101 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="8">
+  <argv value="vsim" pos="0"/>
+  <argv value="+onfinish+stop" pos="1"/>
+  <argv value="design.bin" pos="2"/>
+  <argv value="-do" pos="3"/>
+  <argv value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do" pos="4"/>
+  <argv value="-l" pos="5"/>
+  <argv value="run.log" pos="6"/>
+  <argv value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog" pos="7"/>
+ </app>
+ <window_config>
+  <expanded_mode enabled="false"/>
+  <dockareas top="0" left="217" bottom="440" right="621"/>
+  <taborder left="files+testbench+structure+" bottom="transcript+"/>
+  <activetab left="structure" activewindow="transcript" bottom="transcript"/>
+  <window visible="1" geometry="AdnQywADAAD///0z///8av///gv///4L///9M////Gr///4L///+C/////8AAAAAC5D///0z///8av///gv///4L" undocked="0" dock_location="left" windowstate="" type="files"/>
+  <window visible="1" geometry="AdnQywADAAD///0z///8bv///gv///4L///9M////G7///4L///+C/////8AAAAAC5D///0z///8bv///gv///4L" undocked="0" dock_location="left" windowstate="" type="testbench"/>
+  <window visible="1" geometry="AdnQywADAAAAAAAAAAAAPAAAANgAAAHZAAAAAAAAADwAAADYAAAB2QAAAAAAAAAAC5AAAAAAAAAAPAAAANgAAAHZ" undocked="0" dock_location="left" windowstate="" type="structure"/>
+  <window visible="1" geometry="AdnQywADAAAAAAAAAAAB/wAABo8AAAO2AAAAAAAAAf8AAAaPAAADtgAAAAAAAAAAC5AAAAAAAAAB/wAABo8AAAO2" undocked="0" dock_location="bottom" windowstate="" type="transcript"/>
+  <window visible="1" geometry="AdnQywADAAAAAAAAAAAAFwAABo8AAAPpAAAAAAAAABcAAAaPAAAD6QAAAAACAAAAC5AAAAAAAAAAFwAABo8AAAPp" undocked="0" dock_location="right" windowstate="AAAA/wAAAAD9AAAAAgAAAAAAAADZAAABvfwCAAAAAfwAAAA8AAABvQAAAQoBAAAe+gAAAAICAAAAA/sAAAAKAGYAaQBsAGUAcwEAAAAA/////wAAAF8A////+wAAACQAdABlAHMAdABiAGUAbgBjAGgAVQB2AG0AVwBpAG4AQwBsAHMBAAAAAP////8AAADrAP////sAAAASAHMAdAByAHUAYwB0AHUAcgBlAQAAAAD/////AAAAoAD///8AAAADAAAGkAAAAbj8AQAAAAH8AAAAAAAABpAAAABiAP////oAAAAAAQAAAAP7AAAAFAB0AHIAYQBuAHMAYwByAGkAcAB0AQAAAAD/////AAAAYgD////7AAAAFABhAHMAcwBlAHIAdABpAG8AbgBzAAAAAAD/////AAAAAAAAAAD7AAAAKABXAGEAdgBlADAAXwB3AGEAdgBlAEYAbwByAG0AVwBpAG4AQwBsAHMDAAAA/gAAALUAAAQ0AAACaAAABbEAAAG9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAoAE0AYQBpAG4AXwBIAGkAcwB0AG8AcgB5AF8AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABSAFQATABfAFcAaQBuAGQAbwB3AF8AVABvAG8AbABCAGEAcgEAAAB7/////wAAAAAAAAAAAAAANgBHAEkARABfAFMAcgBjAFYAaQBlAHcAXwBPAHAAdABpAG8AbgBzAF8AVABvAG8AbABCAGEAcgEAAAEQ/////wAAAAAAAAAAAAAARgBHAEkARABfAE0AYQBpAG4AUwByAGMAVwBpAG4AZABvAHcAXwBUAGkAbQBlAFMAYwBhAGwAZQBfAFQAbwBvAGwAQgBhAHIBAAABWf////8AAAAAAAAAAAAAACIARABlAGIAdQBnAGcAaQBuAGcAIABUAG8AbwBsAGIAYQByAQAAA4n/////AAAAAAAAAAA=" type="rtl"/>
+  <window visible="1" geometry="AdnQywADAAAAAAD+AAAAtQAABTEAAAMcAAAA/gAAALUAAAUxAAADHAAAAAAAAAAAC5AAAAD+AAAAtQAABTEAAAMc" undocked="1" windowstate="" type="wave"/>
+  <window visible="1" geometry="AdnQywADAAAAAAAAAAAAAAAABawAAAG4AAAAAAAAAAAAAAWsAAABuAAAAAAAAAAAC5AAAAAAAAAAAAAABawAAAG4" undocked="0" dock_location="center" windowstate="" firstVisibleLine="142" path="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/proj_4/testbench/top.sv" type="source"/>
+  <window visible="0" geometry="" undocked="0" dock_location="bottom" windowstate="" type="assertions"/>
+  <window visible="0" geometry="" undocked="0" dock_location="right" windowstate="" type="drvrecadv"/>
+  <window visible="0" geometry="" undocked="0" dock_location="right" windowstate="" type="generallist"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="sim" fileName="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/proj_4/sim/qwave.db" waveType="0"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser primary="true" value_annotation_mode="true" filepath="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/proj_4/testbench/top.sv" value_tooltip_mode="true" instancename="top"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 143"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curDisplayTimeUnit="-9" curDisplayTimeUnitStr="1ns" curRadix="8" customDisplayTimeUnitListStr="" curActiveWaveFile="sim">
+   <curTime hightime="13" lowtime="1449976152"/>
+  </watchTower_cur_setting>
+  <files/>
+  <testbench/>
+  <structure selection="top"/>
+  <transcript/>
+  <wave name="Wave0">
+   <timeunit value="11"/>
+   <frequnit value="2"/>
+   <showdiff value="0"/>
+  </wave>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow signalHeight="18" alignBaseName="0" displayTimeUnitStr="1ns" displayTimeUnit="-9" secNudge="1" primNudge="1" displayGlobalView="1" displayLeadingZeros="0" showSecCursor="1" displayGrid="0" wintype="4" displayRadixWithValue="1" nameWidth="234" snapToEdge="1" swapRepresentationOfX="0" showMarkers="1" justifySignalPath="Right" valueWidth="83" waveWidth="714" value_tooltip="0" trackViewToTime="1" displayScopeName="1" displayFileTag="1">
+   <window name="Wave0">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime hightime="0" lowtime="0"/>
+    <endTime hightime="13" lowtime="1449976152"/>
+    <beginViewTime hightime="0" lowtime="0"/>
+    <endViewTime hightime="13" lowtime="1449976152"/>
+    <beginLastViewTime hightime="0" lowtime="0"/>
+    <endLastViewTime hightime="13" lowtime="1449976152"/>
+   </viewPort>
+   <primCursor hightime="13" lowtime="1449976152"/>
+   <secCursor hightime="0" lowtime="0"/>
+   <wavetclcommands>
+    <tcl command="wave update off"/>
+    <tcl command="wave clearselection"/>
+    <tcl commandblock="custom radix definitions"></tcl>
+    <tcl command="wave update off"/>
+    <tcl command="wave zoom range 0 57284551000"/>
+    <tcl command="wave group top -backgroundcolor #004466"/>
+    <tcl command="wave add -group top top.clk -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.rst -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.cyc -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.stb -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.we -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.ack -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.adr -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.dat_wr_o -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.dat_rd_i -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.irq -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top {top.scl[0]} -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top {top.sda[0]} -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command=""/>
+   </wavetclcommands>
+  </waveWindow>
+ </wave_mgr>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top"/>
+</session>

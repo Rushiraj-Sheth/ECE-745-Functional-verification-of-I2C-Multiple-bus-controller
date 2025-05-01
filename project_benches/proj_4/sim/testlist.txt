@@ -1,0 +1,3 @@
+the top bench directly runs the required tests
+commands mentined in regress.sh to run the tests
+make debug_cli

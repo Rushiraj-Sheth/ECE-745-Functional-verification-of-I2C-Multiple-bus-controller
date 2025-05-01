@@ -1,0 +1,3 @@
+** Error (suppressible): (vopt-13276) ../../../verification_ip/interface_packages/wb_pkg/src/wb_monitor.svh(31:12): Could not find field/method name (nb_put) in 'parent' of 'parent.nb_put'.
+** Error (suppressible): (vopt-13276) ../../../verification_ip/interface_packages/wb_pkg/src/wb_monitor.svh(31:12): Could not find field/method name (nb_put) in 'parent' of 'parent.nb_put.$0'.
+Optimization failed

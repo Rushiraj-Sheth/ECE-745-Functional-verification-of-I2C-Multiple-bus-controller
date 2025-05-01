@@ -1,0 +1,3 @@
+** Error (suppressible): (vopt-13276) ../../../verification_ip/interface_packages/i2c_pkg/src/i2c_coverage.svh(45:16): Could not find field/method name (data) in 'trans' of 'trans.data'.
+** Error (suppressible): (vopt-13276) ../../../verification_ip/interface_packages/i2c_pkg/src/i2c_coverage.svh(46:19): Could not find field/method name (data) in 'trans' of 'trans.data'.
+Optimization failed

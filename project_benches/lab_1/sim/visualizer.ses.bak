@@ -1,0 +1,33 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="3" skip_do_file="0">
+ <app argc="6">
+  <argv pos="0" value="vsim"/>
+  <argv pos="1" value="+onfinish+stop"/>
+  <argv pos="2" value="design.bin"/>
+  <argv pos="3" value="-do"/>
+  <argv pos="4" value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do"/>
+  <argv pos="5" value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog"/>
+ </app>
+ <window_config>
+  <dockareas left="300" top="0" bottom="266" right="450"/>
+  <taborder/>
+  <activetab/>
+  <window type="rtl" width="1284" visible="1" undocked="0" y="31" x="8" height="781"/>
+  <window type="transcript" visible="1" undocked="0" dock_location="bottom" y="0" x="0"/>
+  <window type="testbench" visible="0" undocked="0" dock_location="left" y="0" x="0"/>
+  <window type="files" visible="1" undocked="0" dock_location="left" y="0" x="0"/>
+  <window type="structure" visible="1" undocked="0" dock_location="left" y="0" x="0"/>
+  <window type="wave" width="1680" visible="1" undocked="1" dock_location="bottom" y="0" x="0" height="979"/>
+ </window_config>
+ <wave_file_mgr/>
+ <gui>
+  <main_window visible="1"/>
+  <watchTower_cur_setting curRadix="0" customDisplayTimeUnitListStr="" curDisplayTimeUnit="0">
+   <curTime lowtime="0" hightime="0"/>
+  </watchTower_cur_setting>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <mem_mgr/>
+ <windows/>
+</session>

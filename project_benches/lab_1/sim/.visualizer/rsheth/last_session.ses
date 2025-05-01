@@ -1,0 +1,53 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="6">
+  <argv value="vsim" pos="0"/>
+  <argv value="+onfinish+stop" pos="1"/>
+  <argv value="design.bin" pos="2"/>
+  <argv value="-do" pos="3"/>
+  <argv value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do" pos="4"/>
+  <argv value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog" pos="5"/>
+ </app>
+ <window_config>
+  <dockareas left="229" right="450" top="0" bottom="266"/>
+  <taborder left="files+structure+" bottom="transcript+"/>
+  <activetab left="structure" bottom="transcript" activewindow="transcript"/>
+  <window undocked="0" dock_location="left" visible="1" type="files" x="0" y="0"/>
+  <window undocked="0" dock_location="left" visible="1" type="structure" x="0" y="0"/>
+  <window undocked="0" dock_location="bottom" visible="1" type="transcript" x="0" y="0"/>
+  <window undocked="0" visible="1" type="rtl" width="1280" x="0" height="729" y="23"/>
+  <window undocked="0" dock_location="left" visible="0" type="testbench" x="0" y="0"/>
+  <window undocked="1" dock_location="bottom" visible="0" type="wave" width="1280" x="0" height="729" y="23"/>
+  <window undocked="0" dock_location="center" visible="1" path="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/lab_1/testbench/top.sv" type="source" x="0" firstVisibleLine="83" y="0"/>
+  <window undocked="0" id="1" dock_location="center" visible="0" path="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/lab_1/rtl/conditioner_mux.vhd" type="source" x="0" firstVisibleLine="160" y="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="sim" fileName="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/lab_1/sim/qwave.db" waveType="0"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/lab_1/testbench/top.sv" primary="true" instancename="top"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 84"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/lab_1/rtl/conditioner_mux.vhd" testbench="1" instancename="top.DUT.iicmb_m_inst0.conditioner_mux_inst0.scl_sda_gen(0).line__190"/>
+   <sourcetclcommands>
+    <tcl command="src activate source1"/>
+    <tcl command="src top 161"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curDisplayTimeUnit="-8" customDisplayTimeUnitListStr="" curDisplayTimeUnitStr="10ns" curRadix="8" curActiveWaveFile="sim">
+   <curTime hightime="0" lowtime="9127"/>
+  </watchTower_cur_setting>
+  <files/>
+  <structure selection="top"/>
+  <transcript/>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top"/>
+</session>

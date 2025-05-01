@@ -1,0 +1,2 @@
+** Error: ../../../verification_ip/interface_packages/wb_pkg/src/wb_coverage.svh(38): (vopt-2909) Type of argument 'trans' of virtual method 'nb_put' in class 'wb_coverage' does not match with type of argument in the abstract superclass 'ncsu_component'.
+Optimization failed

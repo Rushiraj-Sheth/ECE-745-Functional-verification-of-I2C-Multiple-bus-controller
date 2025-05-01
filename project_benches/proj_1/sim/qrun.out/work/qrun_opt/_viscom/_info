@@ -1,0 +1,3 @@
+__design_bin_path=/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/proj_1/sim
+opt_data_elab=/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/proj_1/sim/qrun.out/work/qrun_opt
+opt_data=/mnt/ncsudrive/r/rsheth/ASIC_VERIF/ece745_projects/project_benches/proj_1/sim/qrun.out/work/qrun_opt
